@@ -7,3 +7,15 @@
     width: 100%;
     display: flex;
 }
+
+img {
+    border: 5px solid #555;
+}
+
+#products-title {
+    text-align: center;
+}
+
+#cart-title {
+    text-align: center;
+}
