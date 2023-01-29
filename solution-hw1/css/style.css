@@ -9,13 +9,16 @@
     padding: 0 4px;
 }
 
-img {
+#c-img {
     border: 5px solid #555;
+    width:500px;
+    height:500px;
 }
 
 #logo {
     text-align: left;
-    width: 100;
+    width: 400px;
+    height: 400px;
 }
 
 #products-title {
