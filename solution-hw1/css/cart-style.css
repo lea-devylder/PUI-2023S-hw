@@ -58,3 +58,7 @@
     width: 600px;
     border: 2px solid #000;
 }
+
+a {
+    text-decoration: none;
+}
