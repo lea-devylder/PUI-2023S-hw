@@ -1,58 +1,55 @@
-.column {
-    padding: 0 4px;
-    text-align: center;
-    padding: 50px;
-}
-
-.column:hover {
-    background: yellow;
-    padding: 0 4px;
-    margin: auto;
-    padding: 50px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-
-.c-img {
-    border: 3px solid #000;
-    width:250px;
-    height:250px;
-}
-
-p {
-    font: sans-serif;
-}
-
-#logo {
-    padding-left: 20px;
-    text-align: left;
-    width: 250px;
-    height: 250px;
-}
-
-#products-title {
-    text-align: center;
-    font-weight: bold;
-}
-
-#cart-title {
-    text-align: center;
-}
-
-#title {
-    text-align: center;
-}
-
-#line {
-    width: auto;
-    border: 2px solid #000;
+body {
+	font-family: Verdana, sans-serif;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
+	color:  black;
+}
+
+p, select, button {
+	font-size:  20px;
+}
+
+.highlight {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.container {
+	padding-left:  10%;
+	padding-right:  10%;
+	padding-top:  80px;
+	display: grid;
+}
+
+.navbar a {
+	font-size:  25px;
+	width:  100%;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+div#banner {
+	padding-top:  50px;
+	font-size:  25px;
+	text-align: center;
+}
+
+.product-image {
+	border:  3px solid black;
+}
+
+.nav-wrapper img {
+	width:  400px;
+}
+
+.navbar {
+	border-top: 3px solid black;
+}
+
+.navbar a {
+	display: block;
+	text-align: center;
+	margin:  10px;
 }
