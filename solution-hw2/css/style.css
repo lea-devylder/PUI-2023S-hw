@@ -17,9 +17,6 @@ p, select, button {
 }
 
 .container {
-	padding-left:  10%;
-	padding-right:  10%;
-	padding-top:  80px;
 	display: grid;
 }
 
