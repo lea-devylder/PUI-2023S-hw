@@ -15,6 +15,5 @@ function packSizeChange(packSize) {
 }
 
 function calculatePrice() {
-    console.log("$" + ((basePrice + currentGlazePrice)*currentPackSize).toFixed(2).toString());
     document.getElementById('price').innerHTML =  "$" + ((basePrice + currentGlazePrice)*currentPackSize).toFixed(2).toString();
 }
