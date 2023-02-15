@@ -1,0 +1,64 @@
+body {
+	font-family: Verdana, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:  black;
+}
+
+p, select, button {
+	font-size:  20px;
+}
+
+.highlight {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.container {
+	display: grid;
+}
+
+
+div#banner {
+	padding-top:  100px;
+	padding-bottom: 100px;
+	font-size:  25px;
+	text-align: center;
+}
+
+.product-image {
+	border:  3px solid black;
+}
+
+.nav-wrapper img {
+	width:  400px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+}
+
+.navbar {
+	border-top: 5px solid black;
+	width: 70%;
+	float: right;
+}
+
+.tabs {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	float: right;
+}
+
+.tab {
+	padding: 70px;
+}
+
+.tab a {
+	font-size:  25px;
+	width:  100%;
+	text-align: right;
+	text-transform: uppercase;
+}

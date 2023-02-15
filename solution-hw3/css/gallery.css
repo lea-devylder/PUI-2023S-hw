@@ -1,0 +1,26 @@
+.gallery-row {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+.gallery-item:hover {
+	background-color: yellow;
+}
+
+.gallery-item {
+	display: block;
+	padding: 20px;
+}
+
+.gallery-item img {
+	width: 400px;
+}
+
+.gallery-item .name {
+	text-decoration: underline;
+}
+
+p.name:hover {
+	font-weight: bold;
+}
