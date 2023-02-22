@@ -21,6 +21,7 @@
 
 	<div class="product-wrapper container">
 		<div id="img-container">
+			<h2 class="product-header"></h2>
 			<img class="product-image" src="images/products/original-cinnamon-roll.jpg">
 		</div>
 		<div id="customize">
@@ -37,13 +38,15 @@
 				<select id="pack-options" onchange="packChange(this)"></select>
 			</div>
 			<div id="add-cart">
-				<span>$2.49</span>
+				<span id="myspan"></span>
 				<a href="cart.html">
 					<span class="highlight">Add to Cart</span>
 				</a>
 			</div>
 		</div>
 	</div>
+	<script src="js/rollsData.js"></script>
+
 	<script src="js/price.js"></script>
 </body>
 </html>
