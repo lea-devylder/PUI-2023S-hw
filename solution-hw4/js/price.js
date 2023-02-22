@@ -37,12 +37,14 @@ for (const [pack, price] of Object.entries(packPrices)) {
 /* Record the current glazing option and update the total price */
 function glazingChange(element) {
 	currentGlazingPrice = parseFloat(element.value);
+	saveGlaze(element.innerHTML);
 	updateTotalPrice();
 }
 
 /* Record the current pack option and update the total price */
 function packChange(element) {
 	currentPackPrice = parseFloat(element.value);
+	saveSize(element.innerHTML);
 	updateTotalPrice();
 }
 
