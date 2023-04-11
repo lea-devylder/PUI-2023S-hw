@@ -94,7 +94,7 @@ function createElement(roll) {
 
     const rollListElement = document.querySelector('.cart-wrapper');
     rollListElement.prepend(roll.element);
-
+    console.log(roll);
     updateElement(roll);
     updateTotalPrice();
 }
