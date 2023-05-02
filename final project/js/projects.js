@@ -4,7 +4,7 @@ document.querySelector("#title").onclick = function() {
 }
 
 
-
+//read more functionality
 document.getElementById("project-1").onclick = function() {
   var moreText = document.getElementById("more-1");
   var dots = document.getElementById("dots-1");

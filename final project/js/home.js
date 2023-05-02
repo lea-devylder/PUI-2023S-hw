@@ -1,3 +1,4 @@
+//TRANSITIONS
 
 //PROJECTS
 $(document).ready(function(){
@@ -9,9 +10,6 @@ $(document).ready(function(){
       $("body").fadeIn();
       $(this).fadeOut(600, function() { window.location = 'projects.html'; });
 
-    //   $('body').fadeIn(2000, function() { 
-    //     $(this).fadeOut(600, function() { window.location = 'projects.html'; });
-    //     });
     });
   });
 

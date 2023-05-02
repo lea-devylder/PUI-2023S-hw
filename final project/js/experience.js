@@ -4,6 +4,7 @@ document.querySelector("#title").onclick = function() {
   }
 
 
+  //slideshow animation
 let slideIndex = [1,1];
 let slideId = ["slide-1", "slide-2"]
 showSlides(1, 0);
