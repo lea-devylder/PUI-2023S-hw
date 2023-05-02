@@ -3,7 +3,7 @@ body {
 }
 
 #projects-title {
-    color:#2F4A60;
+    color:#7DA1BF;
     font-size: 60px;
     position: absolute;
     font-family: Josefin Sans;
@@ -91,6 +91,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 #project-2 {
     height: 600px;

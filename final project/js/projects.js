@@ -5,8 +5,9 @@ document.querySelector("#title").onclick = function() {
 
 
 
-document.getElementById("#project-1").onclick = function() {
-  var moreText = document.getElementById("#more-1");
+document.getElementById("project-1").onclick = function() {
+  var moreText = document.getElementById("more-1");
+  var dots = document.getElementById("dots-1");
   if (dots.style.display === "none") {
     dots.style.display = "inline";
     moreText.style.display = "none";
@@ -16,8 +17,10 @@ document.getElementById("#project-1").onclick = function() {
   }
 }
 
-document.getElementById("#project-2").onclick = function() {
-  var moreText = document.getElementById("#more-2");
+document.getElementById("project-2").onclick = function() {
+  var moreText = document.getElementById("more-2");
+  var dots = document.getElementById("dots-2");
+
   if (dots.style.display === "none") {
     dots.style.display = "inline";
     moreText.style.display = "none";
